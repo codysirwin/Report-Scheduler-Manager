@@ -1,0 +1,47 @@
+{
+  "name": "Report Scheduler Manager",
+  "version": "1.0.0",
+  "fullpage": true,
+  "size": {
+    "width": 4,
+    "height": 3
+  },
+  "mapping": [
+    {
+      "dataSetId": "dc86d3e0-fe79-4df5-a3ae-4f4deb4c5b9a",
+      "alias": "emailSubscriptions",
+      "fields": []
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "474dd83a-010d-4a62-95bb-99dc2b47a0bd",
+  "proxyId": "2f7f368a-af8a-461c-9eb4-6aca71190233",
+  "workflowsMapping": [
+    {
+      "alias": "updateScheduledReports",
+      "modelId": null,
+      "version": null,
+      "parameters": [
+        {
+          "name": "id",
+          "aliasedName": "id",
+          "type": "number",
+          "list": false,
+          "children": []
+        },
+        {
+          "name": "updatedFields",
+          "aliasedName": "updatedFields",
+          "type": "object",
+          "list": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "alias": "manageScheduledReports",
+      "modelId": null,
+      "version": null
+    }
+  ]
+}

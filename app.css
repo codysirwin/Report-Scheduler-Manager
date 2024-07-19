@@ -1,0 +1,21 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css');
+
+body{
+  margin: 0;
+}
+
+.column-fit-narrow{
+    width: 50px;
+}
+
+.column-fit-wide{
+    width: 100px;
+}
+
+.email-address{
+  margin: 5px 0px 5px 0px !important;
+}
+
+.remove{
+  display: none !important;
+}

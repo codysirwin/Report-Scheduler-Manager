@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <table class="ui compact celled unstackable table">
+      <thead>
+        <tr>
+          <th>Enabled?</th>
+          <th>Title</th>
+          <th>Subject</th>
+          <th>Email</th>
+          <th>Frequency</th>
+          <th>Days</th>
+          <th>Hours</th>
+          <th>Minutes</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+
+    <div class="ui modal">
+      <i class="close icon"></i>
+      <div class="header">
+        Add User
+      </div>
+      <div class="content modal-content">
+        <form class="ui form">
+          <div class="field">
+            <label>Empty</label>
+            <input name="empty" type="text">
+          </div>
+          <div class="ui submit button">Submit</div>
+          <div class="ui error message"></div>
+        </form>
+      </div>
+      <!-- <div class="actions">
+        <div class="ui black deny button">
+          Cancel
+        </div>
+        <div id="user-add-save" class="ui positive right labeled icon button">
+          Save
+          <i class="plus icon"></i>
+        </div>
+      </div> -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/ryuu.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
